@@ -63,16 +63,19 @@ transient/
 url/*
 var/
 workspace
+*.el~
 
 # Private directory
 /doc/COMMUNITY.org
 /doc/CONTRIBUTING.org
 /games/
-private/
-!private/README.md
-!private/snippets/README.md
-!private/templates/README.md
-!private/local/README.md
+#private/
+#!private/README.md
+#!private/snippets/README.md
+#!private/templates/README.md
+#!private/local/README.md
+#!private/acw-org
+#!private/dired
 
 # Ignore tags created by cscope, etags, ctags, and gtags (GNU global)
 # source: https://github.com/github/gitignore/blob/master/Global/Tags.gitignore
